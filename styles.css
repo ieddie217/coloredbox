@@ -1,0 +1,22 @@
+form #m, form #n {
+  width: 75px;
+}
+
+body {
+  font: 200% Helvetica, sans-serif;
+  background-color: #557A95;
+}
+
+form {
+  margin: 3%;
+  color: #B1A296;
+}
+
+form h3 {
+  text-shadow: 2px 2px #5d5c61;
+}
+
+form #color {
+  width: 25px;
+}
+/*# sourceMappingURL=styles.css.map */

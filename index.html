@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Colored Box Program</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <form id=coloredBox>
+            <h3 id=title>
+                    Colored Box Program
+            </h3>
+                Select a color: 
+            <input id='color' type="color">
+            <div>
+            Enter a size: 
+            <input id='m' type="number"> x <input id='n' type="number"> 
+            </div>
+            <div style="line-height: 3">
+            <input type='submit' value="Submit">
+            <button id='reset'> Reset</button>
+            </div>
+
+        </form>
+        <canvas id='myBox' width="10000" height="10000"></canvas>
+    </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
